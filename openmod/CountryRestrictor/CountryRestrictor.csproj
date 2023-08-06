@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="../../shared.props" />
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageTags>openmod openmod-plugin unturned</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="OpenMod.UnityEngine.Redist" Version="2020.3.38" />
+		<PackageReference Include="OpenMod.Unturned" Version="3.5.0" />
+		<PackageReference Include="OpenMod.Unturned.Redist" Version="3.23.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="config.yaml;translations.yaml" />
+	</ItemGroup>
+</Project>

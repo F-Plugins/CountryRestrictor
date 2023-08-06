@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "openmod", "openmod", "{49298C3E-CBDC-4D81-9448-32772BB1AC5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryRestrictor", "openmod\CountryRestrictor\CountryRestrictor.csproj", "{64ADDF0B-316E-4D83-A76C-3D1533DC8E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2065F426-2EAF-4BB7-89DD-AD1EE364330C}"
+	ProjectSection(SolutionItems) = preProject
+		shared.props = shared.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rocketmod", "rocketmod", "{CEB40959-A277-4CC4-9ED2-0DF94591E5E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryRestrictor", "rocketmod\CountryRestrictor\CountryRestrictor.csproj", "{483E9397-0C7E-4751-AF12-3CEAE36148E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64ADDF0B-316E-4D83-A76C-3D1533DC8E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64ADDF0B-316E-4D83-A76C-3D1533DC8E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64ADDF0B-316E-4D83-A76C-3D1533DC8E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64ADDF0B-316E-4D83-A76C-3D1533DC8E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483E9397-0C7E-4751-AF12-3CEAE36148E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483E9397-0C7E-4751-AF12-3CEAE36148E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483E9397-0C7E-4751-AF12-3CEAE36148E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483E9397-0C7E-4751-AF12-3CEAE36148E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64ADDF0B-316E-4D83-A76C-3D1533DC8E62} = {49298C3E-CBDC-4D81-9448-32772BB1AC5F}
+		{483E9397-0C7E-4751-AF12-3CEAE36148E0} = {CEB40959-A277-4CC4-9ED2-0DF94591E5E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25CED612-0A94-4E6F-8169-47FB2462D484}
+	EndGlobalSection
+EndGlobal

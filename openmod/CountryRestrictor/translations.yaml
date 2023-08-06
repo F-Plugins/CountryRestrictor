@@ -1,0 +1,4 @@
+blacklisted_country: "The country your are playing from is not allowed in this server"
+not_whitelisted_country: "The country your are playing from is not allowed in this server"
+
+# Different translations depending if the ip country was in allowed_countries or not_allowed_countries

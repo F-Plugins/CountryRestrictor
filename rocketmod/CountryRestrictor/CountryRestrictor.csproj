@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="../../shared.props" />
+
+	<ItemGroup>
+		<PackageReference Include="OpenMod.UnityEngine.Redist" Version="2020.3.38" />
+		<PackageReference Include="OpenMod.Unturned.Redist" Version="3.23.8" />
+		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Rocket.API">
+			<HintPath>..\libs\Rocket.API.dll</HintPath>
+		</Reference>
+		<Reference Include="Rocket.Core">
+			<HintPath>..\libs\Rocket.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="Rocket.Unturned">
+			<HintPath>..\libs\Rocket.Unturned.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
