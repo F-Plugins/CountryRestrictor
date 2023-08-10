@@ -93,7 +93,7 @@ not_whitelisted_country: "The country your are playing from is not allowed in th
 
 **OpenMod**
 
-Execute `openmod install Feli.CountryRestrictor`.
+Execute `openmod install Feli.CountryRestrictor`
 
 **RocketMod**
 
