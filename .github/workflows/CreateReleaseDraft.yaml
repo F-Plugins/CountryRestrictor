@@ -57,17 +57,12 @@ jobs:
           cd ..
         shell: bash
 
-      - name: Push OpenMod to NuGet
-        run: dotnet nuget push ./openmod/CountryRestrictor/bin/Release/*.nupkg
-          --api-key ${{ secrets.NUGET_DEPLOY_KEY }}
-          --source https://api.nuget.org/v3/index.json
-
       - name: Upload RocketMod release asset
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./RocketMod/Release.zip
+          asset_path: ./RocketMod/RocketMod.zip
           asset_name: "RocketMod.zip"
           asset_content_type: application/zip
