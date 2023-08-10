@@ -16,7 +16,7 @@ internal static class CountryFinderService
             Logger.Log($"Fetching country from {ip}");
             var request = CreateRequest(ip);
             var response = await request.GetResponseAsync();
-            var content = ReadContent(response.GetResponseStream());
+            var content = await ReadContentAsync(response.GetResponseStream());
 
             var responses = content.Split(';');
             if (int.Parse(responses[0]) == 0 || responses[1] == "XZ") // XZ is special address 
@@ -41,10 +41,9 @@ internal static class CountryFinderService
         return WebRequest.Create($"https://ip2c.org/?dec={ip}");
     }
 
-    private static string ReadContent(Stream stream)
+    private static async Task<string> ReadContentAsync(Stream stream)
     {
         using var reader = new StreamReader(stream);
-
-        return reader.ReadToEnd();
+        return await reader.ReadToEndAsync();
     }
 }
