@@ -1,11 +1,14 @@
 ﻿using Rocket.API;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace CountryRestrictor.Models;
 
 public class Configuration : IRocketPluginConfiguration
 {
+    [XmlAttribute("CountryCode")]
     public List<string> AllowedCountries { get; set; } = new();
+    [XmlAttribute("CountryCode")]
     public List<string> UnAllowedCountries { get; set; } = new();
 
     public void LoadDefaults()

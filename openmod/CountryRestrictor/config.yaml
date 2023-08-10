@@ -182,3 +182,72 @@ allowed_countries: # This list contains all the countries in the world 08/06/202
   - PL  # Poland
   - PT  # Portugal
   - PR  # Puerto Rico
+  - QA  # Qatar
+  - RE  # Réunion
+  - RO  # Romania
+  - RU  # Russian Federation
+  - RW  # Rwanda
+  - BL  # Saint Barthélemy
+  - SH  # Saint Helena, Ascension, and Tristan da Cunha
+  - KN  # Saint Kitts and Nevis
+  - LC  # Saint Lucia
+  - MF  # Saint Martin
+  - PM  # Saint Pierre and Miquelon
+  - VC  # Saint Vincent and the Grenadines
+  - WS  # Samoa
+  - SM  # San Marino
+  - ST  # São Tomé and Príncipe
+  - SA  # Saudi Arabia
+  - SN  # Senegal
+  - RS  # Serbia
+  - SC  # Seychelles
+  - SL  # Sierra Leone
+  - SG  # Singapore
+  - SX  # Sint Maarten (Dutch part)
+  - SK  # Slovakia
+  - SI  # Slovenia
+  - SB  # Solomon Islands
+  - SO  # Somalia
+  - ZA  # South Africa
+  - GS  # South Georgia and the South Sandwich Islands
+  - SS  # South Sudan
+  - ES  # Spain
+  - LK  # Sri Lanka
+  - SD  # Sudan
+  - SR  # Suriname
+  - SJ  # Svalbard and Jan Mayen
+  - SE  # Sweden
+  - CH  # Switzerland
+  - SY  # Syria
+  - TW  # Taiwan
+  - TJ  # Tajikistan
+  - TZ  # Tanzania
+  - TH  # Thailand
+  - TL  # Timor-Leste
+  - TG  # Togo
+  - TK  # Tokelau
+  - TO  # Tonga
+  - TT  # Trinidad and Tobago
+  - TN  # Tunisia
+  - TR  # Turkey
+  - TM  # Turkmenistan
+  - TC  # Turks and Caicos Islands
+  - TV  # Tuvalu
+  - UG  # Uganda
+  - UA  # Ukraine
+  - AE  # United Arab Emirates
+  - GB  # United Kingdom
+  - UM  # United States Minor Outlying Islands
+  - US  # United States
+  - UY  # Uruguay
+  - UZ  # Uzbekistan
+  - VU  # Vanuatu
+  - VE  # Venezuela
+  - VN  # Vietnam
+  - VG  # British Virgin Islands
+  - VI  # U.S. Virgin Islands
+  - WF  # Wallis and Futuna
+  - EH  # Western Sahara
+  - YE  # Yemen
+  - ZM  # Zambia
+  - ZW  # Zimbabwe
