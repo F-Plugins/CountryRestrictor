@@ -66,3 +66,8 @@ jobs:
           asset_path: ./RocketMod/RocketMod.zip
           asset_name: "RocketMod.zip"
           asset_content_type: application/zip
+
+      - name: Push OpenMod to NuGet
+        run: dotnet nuget push ./openmod/CountryRestrictor/bin/Release/*.nupkg
+          --api-key ${{ secrets.NUGET_DEPLOY_KEY }}
+          --source https://api.nuget.org/v3/index.json
